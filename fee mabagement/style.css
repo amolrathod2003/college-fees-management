@@ -1,0 +1,172 @@
+*.{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+
+}
+.nav-bar{
+    height: 80px;
+    background-color: aquamarine;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+}
+.logo{
+    background-image: url(sreenidhi-edu-group.png);
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.nav-name{
+    flex-grow: 1;
+    text-align: center;
+
+}
+.na-search{
+    flex-grow: 1;
+    text-align: center;
+}
+.border{
+    border:  2px solid white
+}
+.border:hover {
+    border: 2px solid white;
+}
+.panel{
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.80rem;
+}
+.panel-college{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.main-section{
+    background-image: url(campus-01.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    
+}
+.main-message{
+    /* background-color: white; */
+    
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* justify-content: center; */
+    font-size: 1rem;
+}
+.right{
+    width: 70%;
+
+}
+.h1{
+    align-items: center;
+    justify-content: right;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.loggin-container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.h2{
+    align-items: center;
+    color: aqua;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.form label{
+    font-size: 16px;
+    color: azure;
+
+
+}
+
+.form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+
+.p-tag{
+    text-align: center;
+    color : white
+}
